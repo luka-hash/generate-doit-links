@@ -16,7 +16,9 @@ Generates links (in [doit](https://github.com/luka-hash/doit) links format) of (
 ### TODO:
 
 - [] Error handling
+- [] Option to set output file to stdout
 
 ### Licence
 
 This code is licensed under the terms of the MIT Licence (see LICENCE for details).
+
