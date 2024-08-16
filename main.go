@@ -24,7 +24,7 @@ func main() {
 	additional_command := flag.String("command", "", "additional command to pass to yt-dlp")
 	output := flag.String("output", "playlist_links", "output file to put the playlist links in")
 	flag.Parse()
-	args := os.Args[1:]
+	args := flag.Args()
 	if len(args) == 0 {
 		fmt.Fprintln(os.Stderr, "Usage: ,generate-doit-links [OPTIONS] <url> [<url>...]")
 		os.Exit(1)
